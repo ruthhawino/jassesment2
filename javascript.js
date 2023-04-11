@@ -31,11 +31,6 @@ function sortedArray(rigthIndex,leftIndex){
 
 }
 
-
-
-
-
-
  function binarysearch(target,ndex){
     if (num2.length <=-1){
         return num2
@@ -59,9 +54,26 @@ function sortedArray(rigthIndex,leftIndex){
     }
 
  }
+
+
+
+ // Write a function that takes in an array of numbers and returns an array that has all
+//elements multiplied by 4.
+//let numArray = [12,87,45,75,23,64,73]
+
+
+
+
  //Write a function that takes in an array of strings and returns an array with every element
 //turned into a number
-//let nums = [“10”,”24”,”45”,”56”,”67”]
+//let nums = ["10","24","45","56","67"]
+
+function array (array) {
+    return array.join(" ");
+}
+
+console.log(arrayToStringAndBack([10,24, 45, 67]));
+
 
 
 
